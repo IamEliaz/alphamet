@@ -372,24 +372,21 @@ ul {
   flex-wrap: wrap;
 }
 
-/* --- Typewriter Effect (replaced with fade-in) --- */
-.typewriter {
+/* --- Hero Text (fade-in animation) --- */
+.hero-text {
   display: block;
+  width: 100%;
   white-space: normal;
   word-wrap: break-word;
-  overflow-wrap: break-word;
-  animation: typewriter-fade-in 1.5s ease forwards;
+  color: var(--accent);
+  font-size: clamp(1.5rem, 4vw, 3rem);
+  font-weight: 700;
+  animation: fadeIn 1.5s ease;
 }
 
-@keyframes typewriter-fade-in {
-  from {
-    opacity: 0;
-    transform: translateY(10px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
 }
 
 /* ============================================================
