@@ -374,8 +374,7 @@ ul {
 
 /* --- Typewriter Effect --- */
 .typewriter {
-  display: inline;
-  overflow: hidden;
+  display: block;
   white-space: normal;
   word-wrap: break-word;
   overflow-wrap: break-word;
