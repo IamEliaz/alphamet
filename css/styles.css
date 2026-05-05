@@ -372,24 +372,24 @@ ul {
   flex-wrap: wrap;
 }
 
-/* --- Typewriter Effect --- */
+/* --- Typewriter Effect (replaced with fade-in) --- */
 .typewriter {
   display: block;
   white-space: normal;
   word-wrap: break-word;
   overflow-wrap: break-word;
-  border-right: 3px solid var(--accent);
-  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+  animation: typewriter-fade-in 1.5s ease forwards;
 }
 
-@keyframes typing {
-  from { max-width: 0; }
-  to { max-width: 100%; }
-}
-
-@keyframes blink-caret {
-  from, to { border-color: transparent; }
-  50% { border-color: var(--accent); }
+@keyframes typewriter-fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 /* ============================================================
@@ -1684,8 +1684,6 @@ ul {
 
   .typewriter {
     white-space: normal;
-    border-right: none;
-    animation: none;
   }
 
   .section {
