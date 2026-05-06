@@ -61,15 +61,7 @@ img {
   border-radius: var(--border-radius-md);
 }
 
-.header__logo img {
-  border-radius: 0 !important;
-}
 
-.header__logo img,
-.footer__brand img {
-  border-radius: 0 !important;
-  clip-path: none !important;
-}
 
 a {
   text-decoration: none;
@@ -158,6 +150,7 @@ ul {
   display: block;
   border-radius: 0 !important;
   clip-path: none !important;
+  overflow: visible !important;
 }
 
 .header__nav {
@@ -1838,4 +1831,4 @@ ul {
 
 
 /* FIX LOGO */
-.header__logo img { border-radius: 0 !important; clip-path: none !important; overflow: visible !important; width: auto !important; height: 65px !important; }
+
