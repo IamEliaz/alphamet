@@ -236,7 +236,7 @@ span, div, section, header, footer, nav, button, a, li, input, textarea, select,
 
 .header__nav a {
   font-family: 'Syne', sans-serif;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   font-weight: 600;
   color: var(--text-secondary);
   text-transform: uppercase;
