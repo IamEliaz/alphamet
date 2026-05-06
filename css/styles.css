@@ -212,7 +212,7 @@ span, div, section, header, footer, nav, button, a, li, input, textarea, select,
 
 .header__logo-text {
   font-family: 'Syne', sans-serif;
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: 800;
   letter-spacing: 3px;
   line-height: 1;
