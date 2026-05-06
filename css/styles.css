@@ -972,9 +972,11 @@ ul {
 }
 
 .footer__brand img {
-  height: 50px;
+  height: 60px;
+  width: auto;
   margin-bottom: 15px;
-  border-radius: var(--border-radius-sm);
+  border-radius: 0 !important;
+  clip-path: none !important;
 }
 
 .footer__brand p {
