@@ -908,7 +908,7 @@ span, div, section, header, footer, nav, button, a, li, input, textarea, select,
 }
 
 .category-section__title {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   font-weight: 800;
   color: var(--text-primary);
   margin-bottom: 8px;
