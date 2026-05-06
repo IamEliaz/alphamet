@@ -61,6 +61,12 @@ img {
   border-radius: var(--border-radius-md);
 }
 
+.header__logo img,
+.footer__brand img {
+  border-radius: 0 !important;
+  clip-path: none !important;
+}
+
 a {
   text-decoration: none;
   color: inherit;
