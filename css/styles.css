@@ -1221,7 +1221,7 @@ span, div, section, header, footer, nav, button, a, li, input, textarea, select,
 }
 
 .footer__title {
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: 700;
   color: var(--text-primary);
   margin-bottom: 20px;
