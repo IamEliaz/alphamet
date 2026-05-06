@@ -148,22 +148,6 @@ ul {
   border-radius: var(--border-radius-sm);
 }
 
-.header__logo-text {
-  font-family: 'Inter', sans-serif;
-  font-size: 1.5rem;
-  font-weight: 800;
-  letter-spacing: 2px;
-  line-height: 1;
-  display: flex;
-  align-items: center;
-}
-.logo-alpha {
-  color: #D4A017;
-}
-.logo-met {
-  color: #FFFFFF;
-}
-
 .header__nav {
   display: flex;
   align-items: center;
@@ -1819,4 +1803,29 @@ ul {
     width: 100%;
     justify-content: center;
   }
+}
+
+/* ============================================================
+   LOGO HEADER
+   ============================================================ */
+.header__logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+}
+.header__logo-text {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 800;
+  letter-spacing: 3px;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+}
+.logo-alpha {
+  color: #D4A017;
+}
+.logo-met {
+  color: #FFFFFF;
 }
