@@ -152,12 +152,12 @@ ul {
 }
 
 .header__logo img {
-  height: 55px;
-  width: 55px;
+  height: 65px;
+  width: auto;
   object-fit: contain;
   display: block;
   border-radius: 0 !important;
-  overflow: visible !important;
+  clip-path: none !important;
 }
 
 .header__nav {
@@ -982,7 +982,7 @@ ul {
 }
 
 .footer__brand img {
-  height: 60px;
+  height: 65px;
   width: auto;
   margin-bottom: 15px;
   border-radius: 0 !important;
