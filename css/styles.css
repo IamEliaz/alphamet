@@ -137,15 +137,14 @@ ul {
 .header__logo {
   display: flex;
   align-items: center;
-  gap: 10px;
-  border-radius: var(--border-radius-md);
-  overflow: hidden;
+  gap: 12px;
+  text-decoration: none;
 }
 
 .header__logo img {
-  height: 45px;
-  width: auto;
-  border-radius: var(--border-radius-sm);
+  height: 50px;
+  width: 50px;
+  object-fit: contain;
 }
 
 .header__nav {
@@ -1805,38 +1804,6 @@ ul {
   }
 }
 
-/* ============================================================
-   LOGO HEADER
-   ============================================================ */
-.header__logo {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  text-decoration: none;
-}
-.header__logo-text {
-  font-family: 'Inter', sans-serif;
-  font-size: 1.4rem;
-  font-weight: 800;
-  letter-spacing: 3px;
-  line-height: 1;
-  display: flex;
-  align-items: center;
-}
-.logo-alpha {
-  color: #D4A017;
-}
-.header__logo {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  text-decoration: none;
-}
-.header__logo img {
-  height: 50px;
-  width: 50px;
-  object-fit: contain;
-}
 .header__logo-text {
   font-family: 'Inter', sans-serif;
   font-size: 1.4rem;
