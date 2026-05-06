@@ -129,7 +129,7 @@ span, div, section, header, footer, nav, button, a, li, input, textarea, select,
 }
 
 .section__title {
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: 800;
   margin-bottom: 15px;
   letter-spacing: 1px;
@@ -388,7 +388,7 @@ span, div, section, header, footer, nav, button, a, li, input, textarea, select,
 }
 
 .hero__title {
-  font-size: 3.5rem;
+  font-size: 2.5rem;
   font-weight: 800;
   margin-bottom: 20px;
   letter-spacing: 2px;
@@ -404,7 +404,7 @@ span, div, section, header, footer, nav, button, a, li, input, textarea, select,
 }
 
 .hero__subtitle {
-  font-size: 1.3rem;
+  font-size: 1rem;
   color: var(--text-secondary);
   margin-bottom: 15px;
   font-weight: 400;
@@ -458,7 +458,7 @@ span, div, section, header, footer, nav, button, a, li, input, textarea, select,
 }
 
 .page-hero__title {
-  font-size: 3rem;
+  font-size: 2.2rem;
   font-weight: 800;
   margin-bottom: 15px;
   letter-spacing: 2px;
