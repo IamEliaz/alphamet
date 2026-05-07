@@ -23,28 +23,31 @@ const productosData = {
           "/assets/images/productos/espiral03.jpg",
           "/assets/images/productos/espiral01.jpg"
         ],
-        descripcion: "Concentrador gravimétrico helicoidal para recuperación de oro, estaño, tungsteno y otros minerales pesados. Separa minerales por diferencia de densidad sin uso de mercurio ni reactivos químicos.",
+        descripcion: "Concentrador gravimétrico helicoidal para recuperación de oro, plata, zinc, plomo, antimonio y otros minerales pesados. Método de gravimetría con agua (H₂O).",
         especificaciones: [
-          "Capacidad: 2-10 TPH",
-          "Potencia: 3 HP",
-          "Acero inoxidable"
+          "Capacidad: 1 Ton/hora",
+          "Recuperación: 80%",
+          "Estructura: 4.20 m",
+          "Diámetro: 60 cm",
+          "Fibra de Vidrio"
         ],
         destacado: true // Aparece en la página de inicio
       },
       {
-        id: "mesa-vibratoria",
-        nombre: "Mesa Vibratoria",
+        id: "mesa-gravimetrica",
+        nombre: "Mesa Gravimétrica",
         imagenes: [
-          "/assets/images/productos/mesa-vibratoria.jpg",
-          "/assets/images/productos/mesa-vibratoria-2.jpg",
-          "/assets/images/productos/mesa-vibratoria-3.jpg",
-          "/assets/images/productos/mesa-vibratoria-4.jpg"
+          "/assets/images/productos/mesag01.jpg",
+          "/assets/images/productos/mesag03.jpg",
+          "/assets/images/productos/mesag03.jpg",
+          "/assets/images/productos/mesag04.jpg"
         ],
-        descripcion: "Mesa de concentración gravimétrica para separación fina de minerales. Ideal para oro y metales preciosos.",
+        descripcion: "Concentrador gravimétrico de mesa para separación fina de minerales como oro, plata, plomo, zinc y otros metales preciosos. Separación por gravimetría con exclusivamente agua.",
         especificaciones: [
-          "Capacidad: 0.5-2 TPH",
-          "Potencia: 1.5 HP",
-          "Fibra de vidrio"
+          "Capacidad: 1 Ton/hora",
+          "Motor: 3 HP trifásico",
+          "Rifles: 80",
+          "Dimensiones: 3m x 1.20m"
         ],
         destacado: false
       },
