@@ -740,6 +740,108 @@ span, div, section, header, footer, nav, button, a, li, input, textarea, select,
 }
 
 /* ============================================================
+   PRODUCT SLIDER
+   ============================================================ */
+.product-slider {
+  position: relative;
+  overflow: hidden;
+  background: #000;
+}
+
+.product-slider__slides {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+}
+
+.product-slider__slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  z-index: 1;
+}
+
+.product-slider__slide.active {
+  opacity: 1;
+  z-index: 2;
+}
+
+.product-slider__slide .product-card__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.product-slider__btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border: none;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  font-size: 1rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all var(--transition-fast);
+  opacity: 0;
+}
+
+.product-card:hover .product-slider__btn {
+  opacity: 1;
+}
+
+.product-slider__btn:hover {
+  background: rgba(212, 160, 23, 0.8);
+}
+
+.product-slider__prev {
+  left: 10px;
+}
+
+.product-slider__next {
+  right: 10px;
+}
+
+.product-slider__dots {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+  display: flex;
+  gap: 6px;
+}
+
+.product-slider__dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.4);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.product-slider__dot.active {
+  background: var(--accent);
+  transform: scale(1.2);
+}
+
+.product-slider__dot:hover {
+  background: rgba(255, 255, 255, 0.8);
+}
+
+/* ============================================================
    SERVICE CARDS
    ============================================================ */
 .service-card {

@@ -17,7 +17,12 @@ const productosData = {
       {
         id: "jig-mineral",
         nombre: "Jig Mineral",
-        imagen: "/assets/images/productos/jig-mineral.jpg",
+        imagenes: [
+          "/assets/images/productos/jig-mineral.jpg",
+          "/assets/images/productos/jig-mineral-2.jpg",
+          "/assets/images/productos/jig-mineral-3.jpg",
+          "/assets/images/productos/jig-mineral-4.jpg"
+        ],
         descripcion: "Concentrador gravimétrico de pulsación para recuperación de oro, estaño, tungsteno y otros minerales pesados.",
         especificaciones: [
           "Capacidad: 2-10 TPH",
@@ -29,7 +34,12 @@ const productosData = {
       {
         id: "mesa-vibratoria",
         nombre: "Mesa Vibratoria",
-        imagen: "/assets/images/productos/mesa-vibratoria.jpg",
+        imagenes: [
+          "/assets/images/productos/mesa-vibratoria.jpg",
+          "/assets/images/productos/mesa-vibratoria-2.jpg",
+          "/assets/images/productos/mesa-vibratoria-3.jpg",
+          "/assets/images/productos/mesa-vibratoria-4.jpg"
+        ],
         descripcion: "Mesa de concentración gravimétrica para separación fina de minerales. Ideal para oro y metales preciosos.",
         especificaciones: [
           "Capacidad: 0.5-2 TPH",
@@ -41,7 +51,12 @@ const productosData = {
       {
         id: "zaranda-vibratoria",
         nombre: "Zaranda Vibratoria",
-        imagen: "/assets/images/productos/zaranda-vibratoria.jpg",
+        imagenes: [
+          "/assets/images/productos/zaranda-vibratoria.jpg",
+          "/assets/images/productos/zaranda-vibratoria-2.jpg",
+          "/assets/images/productos/zaranda-vibratoria-3.jpg",
+          "/assets/images/productos/zaranda-vibratoria-4.jpg"
+        ],
         descripcion: "Clasificador vibratorio para separación de minerales por tamaño. Mallas intercambiables para diferentes granulometrías.",
         especificaciones: [
           "Capacidad: 5-50 TPH",
@@ -53,7 +68,12 @@ const productosData = {
       {
         id: "concentrador-centrifugo",
         nombre: "Concentrador Centrífugo",
-        imagen: "/assets/images/productos/concentrador-centrifugo.jpg",
+        imagenes: [
+          "/assets/images/productos/concentrador-centrifugo.jpg",
+          "/assets/images/productos/concentrador-centrifugo-2.jpg",
+          "/assets/images/productos/concentrador-centrifugo-3.jpg",
+          "/assets/images/productos/concentrador-centrifugo-4.jpg"
+        ],
         descripcion: "Concentrador centrífugo para recuperación de oro fino. Alta eficiencia en la captura de partículas ultrafinas.",
         especificaciones: [
           "Capacidad: 1-5 TPH",
@@ -65,7 +85,12 @@ const productosData = {
       {
         id: "espiral-concentradora",
         nombre: "Espiral Concentradora",
-        imagen: "/assets/images/productos/espiral-concentradora.jpg",
+        imagenes: [
+          "/assets/images/productos/espiral-concentradora.jpg",
+          "/assets/images/productos/espiral-concentradora-2.jpg",
+          "/assets/images/productos/espiral-concentradora-3.jpg",
+          "/assets/images/productos/espiral-concentradora-4.jpg"
+        ],
         descripcion: "Concentrador en espiral para separación gravimétrica de minerales. Ideal para arenas negras y minerales pesados.",
         especificaciones: [
           "Capacidad: 1-3 TPH",
@@ -87,7 +112,12 @@ const productosData = {
       {
         id: "molino-bolas",
         nombre: "Molino de Bolas",
-        imagen: "/assets/images/productos/molino-bolas.jpg",
+        imagenes: [
+          "/assets/images/productos/molino-bolas.jpg",
+          "/assets/images/productos/molino-bolas-2.jpg",
+          "/assets/images/productos/molino-bolas-3.jpg",
+          "/assets/images/productos/molino-bolas-4.jpg"
+        ],
         descripcion: "Molino para molienda fina de minerales. Ideal para procesos de conminución en plantas concentradoras de pequeña y mediana escala.",
         especificaciones: [
           "Capacidad: 5-50 TPD",
@@ -99,7 +129,12 @@ const productosData = {
       {
         id: "molino-barras",
         nombre: "Molino de Barras",
-        imagen: "/assets/images/productos/molino-barras.jpg",
+        imagenes: [
+          "/assets/images/productos/molino-barras.jpg",
+          "/assets/images/productos/molino-barras-2.jpg",
+          "/assets/images/productos/molino-barras-3.jpg",
+          "/assets/images/productos/molino-barras-4.jpg"
+        ],
         descripcion: "Molino para molienda gruesa y media. Ideal para preparación de alimentación a circuitos de concentración gravimétrica.",
         especificaciones: [
           "Capacidad: 3-30 TPD",
@@ -111,7 +146,12 @@ const productosData = {
       {
         id: "clasificador-espiral",
         nombre: "Clasificador Espiral",
-        imagen: "/assets/images/productos/clasificador-espiral.jpg",
+        imagenes: [
+          "/assets/images/productos/clasificador-espiral.jpg",
+          "/assets/images/productos/clasificador-espiral-2.jpg",
+          "/assets/images/productos/clasificador-espiral-3.jpg",
+          "/assets/images/productos/clasificador-espiral-4.jpg"
+        ],
         descripcion: "Clasificador de minerales por sedimentación. Separa finos de gruesos en circuitos cerrados de molienda.",
         especificaciones: [
           "Capacidad: 5-50 TPD",
@@ -123,7 +163,12 @@ const productosData = {
       {
         id: "hidrociclon",
         nombre: "Hidrociclón",
-        imagen: "/assets/images/productos/hidrociclon.jpg",
+        imagenes: [
+          "/assets/images/productos/hidrociclon.jpg",
+          "/assets/images/productos/hidrociclon-2.jpg",
+          "/assets/images/productos/hidrociclon-3.jpg",
+          "/assets/images/productos/hidrociclon-4.jpg"
+        ],
         descripcion: "Clasificador centrífugo para separación de partículas finas y gruesas en suspensiones minerales.",
         especificaciones: [
           "Capacidad: 5-100 m³/h",
@@ -135,7 +180,12 @@ const productosData = {
       {
         id: "chancadora-quijada",
         nombre: "Chancadora de Quijada",
-        imagen: "/assets/images/productos/chancadora-quijada.jpg",
+        imagenes: [
+          "/assets/images/productos/chancadora-quijada.jpg",
+          "/assets/images/productos/chancadora-quijada-2.jpg",
+          "/assets/images/productos/chancadora-quijada-3.jpg",
+          "/assets/images/productos/chancadora-quijada-4.jpg"
+        ],
         descripcion: "Trituradora primaria de mandíbulas para reducción de mineral grueso. Robusta y de alta capacidad.",
         especificaciones: [
           "Capacidad: 1-20 TPH",
@@ -157,7 +207,12 @@ const productosData = {
       {
         id: "celda-flotacion",
         nombre: "Celda de Flotación",
-        imagen: "/assets/images/productos/celda-flotacion.jpg",
+        imagenes: [
+          "/assets/images/productos/celda-flotacion.jpg",
+          "/assets/images/productos/celda-flotacion-2.jpg",
+          "/assets/images/productos/celda-flotacion-3.jpg",
+          "/assets/images/productos/celda-flotacion-4.jpg"
+        ],
         descripcion: "Equipo para procesos de flotación de minerales sulfurados y oxidados. Alta eficiencia en recuperación de concentrados.",
         especificaciones: [
           "Capacidad: 1-50 m³",
@@ -169,7 +224,12 @@ const productosData = {
       {
         id: "tanque-lixiviacion",
         nombre: "Tanque de Lixiviación",
-        imagen: "/assets/images/productos/tanque-lixiviacion.jpg",
+        imagenes: [
+          "/assets/images/productos/tanque-lixiviacion.jpg",
+          "/assets/images/productos/tanque-lixiviacion-2.jpg",
+          "/assets/images/productos/tanque-lixiviacion-3.jpg",
+          "/assets/images/productos/tanque-lixiviacion-4.jpg"
+        ],
         descripcion: "Tanque agitado para procesos de lixiviación de oro y plata con cianuro u otros reactivos.",
         especificaciones: [
           "Capacidad: 5-100 m³",
@@ -181,7 +241,12 @@ const productosData = {
       {
         id: "bomba-pulpa",
         nombre: "Bomba de Pulpa",
-        imagen: "/assets/images/productos/bomba-pulpa.jpg",
+        imagenes: [
+          "/assets/images/productos/bomba-pulpa.jpg",
+          "/assets/images/productos/bomba-pulpa-2.jpg",
+          "/assets/images/productos/bomba-pulpa-3.jpg",
+          "/assets/images/productos/bomba-pulpa-4.jpg"
+        ],
         descripcion: "Bomba centrífuga para manejo de pulpas minerales abrasivas y corrosivas en plantas concentradoras.",
         especificaciones: [
           "Caudal: 10-200 m³/h",
@@ -193,7 +258,12 @@ const productosData = {
       {
         id: "agitador-mecanico",
         nombre: "Agitador Mecánico",
-        imagen: "/assets/images/productos/agitador-mecanico.jpg",
+        imagenes: [
+          "/assets/images/productos/agitador-mecanico.jpg",
+          "/assets/images/productos/agitador-mecanico-2.jpg",
+          "/assets/images/productos/agitador-mecanico-3.jpg",
+          "/assets/images/productos/agitador-mecanico-4.jpg"
+        ],
         descripcion: "Sistema de agitación para tanques de lixiviación y acondicionamiento de pulpas minerales.",
         especificaciones: [
           "Capacidad: 5-50 m³",
@@ -205,7 +275,12 @@ const productosData = {
       {
         id: "filtro-prensa",
         nombre: "Filtro Prensa",
-        imagen: "/assets/images/productos/filtro-prensa.jpg",
+        imagenes: [
+          "/assets/images/productos/filtro-prensa.jpg",
+          "/assets/images/productos/filtro-prensa-2.jpg",
+          "/assets/images/productos/filtro-prensa-3.jpg",
+          "/assets/images/productos/filtro-prensa-4.jpg"
+        ],
         descripcion: "Equipo de filtración para deshidratación de concentrados y relaves. Reduce la humedad al mínimo.",
         especificaciones: [
           "Capacidad: 5-50 TPD",
@@ -227,7 +302,12 @@ const productosData = {
       {
         id: "bomba-agua",
         nombre: "Bomba de Agua",
-        imagen: "/assets/images/productos/bomba-agua.jpg",
+        imagenes: [
+          "/assets/images/productos/bomba-agua.jpg",
+          "/assets/images/productos/bomba-agua-2.jpg",
+          "/assets/images/productos/bomba-agua-3.jpg",
+          "/assets/images/productos/bomba-agua-4.jpg"
+        ],
         descripcion: "Bomba centrífuga para suministro de agua en plantas de procesamiento mineral. Alta eficiencia y durabilidad.",
         especificaciones: [
           "Caudal: 5-100 m³/h",
@@ -239,7 +319,12 @@ const productosData = {
       {
         id: "faja-transportadora",
         nombre: "Faja Transportadora",
-        imagen: "/assets/images/productos/faja-transportadora.jpg",
+        imagenes: [
+          "/assets/images/productos/faja-transportadora.jpg",
+          "/assets/images/productos/faja-transportadora-2.jpg",
+          "/assets/images/productos/faja-transportadora-3.jpg",
+          "/assets/images/productos/faja-transportadora-4.jpg"
+        ],
         descripcion: "Sistema de transporte continuo para minerales. Ideal para alimentación de plantas y movimiento de materiales.",
         especificaciones: [
           "Ancho: 18-48 pulg",
@@ -251,7 +336,12 @@ const productosData = {
       {
         id: "tolva-alimentacion",
         nombre: "Tolva de Alimentación",
-        imagen: "/assets/images/productos/tolva-alimentacion.jpg",
+        imagenes: [
+          "/assets/images/productos/tolva-alimentacion.jpg",
+          "/assets/images/productos/tolva-alimentacion-2.jpg",
+          "/assets/images/productos/tolva-alimentacion-3.jpg",
+          "/assets/images/productos/tolva-alimentacion-4.jpg"
+        ],
         descripcion: "Tolva de almacenamiento y alimentación con feeder vibratorio para dosificación controlada de mineral.",
         especificaciones: [
           "Capacidad: 5-50 ton",
@@ -263,7 +353,12 @@ const productosData = {
       {
         id: "bomba-centrifuga",
         nombre: "Bomba Centrífuga",
-        imagen: "/assets/images/productos/bomba-centrifuga.jpg",
+        imagenes: [
+          "/assets/images/productos/bomba-centrifuga.jpg",
+          "/assets/images/productos/bomba-centrifuga-2.jpg",
+          "/assets/images/productos/bomba-centrifuga-3.jpg",
+          "/assets/images/productos/bomba-centrifuga-4.jpg"
+        ],
         descripcion: "Bomba centrífuga multietapa para aplicaciones mineras. Ideal para sistemas de agua y pulpas diluidas.",
         especificaciones: [
           "Caudal: 10-150 m³/h",
@@ -275,7 +370,12 @@ const productosData = {
       {
         id: "tablero-electrico",
         nombre: "Tablero Eléctrico",
-        imagen: "/assets/images/productos/tablero-electrico.jpg",
+        imagenes: [
+          "/assets/images/productos/tablero-electrico.jpg",
+          "/assets/images/productos/tablero-electrico-2.jpg",
+          "/assets/images/productos/tablero-electrico-3.jpg",
+          "/assets/images/productos/tablero-electrico-4.jpg"
+        ],
         descripcion: "Tablero de control y distribución eléctrica para plantas mineras. Incluye protecciones y sistema de control.",
         especificaciones: [
           "Voltaje: 220-480V",
@@ -305,16 +405,39 @@ function obtenerProductosDestacados() {
 }
 
 // ============================================================
-// FUNCIÓN: Generar HTML de una tarjeta de producto
+// FUNCIÓN: Generar HTML de una tarjeta de producto (con slider)
 // ============================================================
 function generarProductCard(producto) {
   const specsHTML = producto.especificaciones.map(function (spec) {
     return '<span class="product-card__spec">' + spec + '</span>';
   }).join('');
 
+  // Generar slides del slider
+  var slidesHTML = '';
+  var dotsHTML = '';
+  var imagenes = producto.imagenes || [producto.imagen || ''];
+  imagenes.forEach(function (img, index) {
+    var activeClass = index === 0 ? ' active' : '';
+    slidesHTML += '<div class="product-slider__slide' + activeClass + '">' +
+      '<img class="product-card__image" src="' + img + '" alt="' + producto.nombre + '" loading="lazy">' +
+      '</div>';
+    dotsHTML += '<span class="product-slider__dot' + activeClass + '" data-index="' + index + '"></span>';
+  });
+
+  var prevBtn = imagenes.length > 1 ? '<button class="product-slider__btn product-slider__prev" aria-label="Anterior">&#10094;</button>' : '';
+  var nextBtn = imagenes.length > 1 ? '<button class="product-slider__btn product-slider__next" aria-label="Siguiente">&#10095;</button>' : '';
+  var dotsNav = imagenes.length > 1 ? '<div class="product-slider__dots">' + dotsHTML + '</div>' : '';
+
   return `
     <div class="product-card fade-in">
-      <img class="product-card__image" src="${producto.imagen}" alt="${producto.nombre}" loading="lazy">
+      <div class="product-slider" data-product-id="${producto.id}">
+        ${prevBtn}
+        ${nextBtn}
+        <div class="product-slider__slides">
+          ${slidesHTML}
+        </div>
+        ${dotsNav}
+      </div>
       <div class="product-card__body">
         <h3 class="product-card__title">${producto.nombre}</h3>
         <p class="product-card__desc">${producto.descripcion}</p>

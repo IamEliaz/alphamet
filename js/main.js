@@ -323,6 +323,71 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 
   // ============================================================
+  // PRODUCT SLIDER - NAVEGACIÓN (con delegación)
+  // ============================================================
+  document.addEventListener('click', function (e) {
+    // Botón anterior
+    var prevBtn = e.target.closest('.product-slider__prev');
+    if (prevBtn) {
+      e.preventDefault();
+      var slider = prevBtn.closest('.product-slider');
+      if (slider) cambiarSlide(slider, -1);
+      return;
+    }
+
+    // Botón siguiente
+    var nextBtn = e.target.closest('.product-slider__next');
+    if (nextBtn) {
+      e.preventDefault();
+      var slider2 = nextBtn.closest('.product-slider');
+      if (slider2) cambiarSlide(slider2, 1);
+      return;
+    }
+
+    // Dots de navegación
+    var dot = e.target.closest('.product-slider__dot');
+    if (dot) {
+      e.preventDefault();
+      var slider3 = dot.closest('.product-slider');
+      if (slider3) irASlide(slider3, parseInt(dot.getAttribute('data-index')));
+      return;
+    }
+  });
+
+  function cambiarSlide(slider, direccion) {
+    var slides = slider.querySelectorAll('.product-slider__slide');
+    var dots = slider.querySelectorAll('.product-slider__dot');
+    var actual = 0;
+
+    slides.forEach(function (s, i) {
+      if (s.classList.contains('active')) actual = i;
+    });
+
+    var nuevo = actual + direccion;
+    if (nuevo < 0) nuevo = slides.length - 1;
+    if (nuevo >= slides.length) nuevo = 0;
+
+    slides.forEach(function (s) { s.classList.remove('active'); });
+    dots.forEach(function (d) { d.classList.remove('active'); });
+
+    slides[nuevo].classList.add('active');
+    if (dots[nuevo]) dots[nuevo].classList.add('active');
+  }
+
+  function irASlide(slider, index) {
+    var slides = slider.querySelectorAll('.product-slider__slide');
+    var dots = slider.querySelectorAll('.product-slider__dot');
+
+    if (index < 0 || index >= slides.length) return;
+
+    slides.forEach(function (s) { s.classList.remove('active'); });
+    dots.forEach(function (d) { d.classList.remove('active'); });
+
+    slides[index].classList.add('active');
+    if (dots[index]) dots[index].classList.add('active');
+  }
+
+  // ============================================================
   // AÑO ACTUAL EN FOOTER
   // ============================================================
   const yearSpan = document.getElementById('current-year');
