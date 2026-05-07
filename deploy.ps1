@@ -1,3 +1,4 @@
+git rm --cached -r .
 git add .
-git commit -m "actualizacion"
+git commit -m "fix line endings"
 git push
