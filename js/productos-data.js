@@ -15,13 +15,13 @@ const productosData = {
     subtitulo: "Equipos para recuperación de minerales pesados por gravedad",
     productos: [
       {
-        id: "jig-mineral",
-        nombre: "Jig Mineral",
+        id: "espiral",
+        nombre: "Espiral",
         imagenes: [
-          "/assets/images/productos/jig-mineral.jpg",
-          "/assets/images/productos/jig-mineral-2.jpg",
-          "/assets/images/productos/jig-mineral-3.jpg",
-          "/assets/images/productos/jig-mineral-4.jpg"
+          "/assets/images/productos/espiral01.jpg",
+          "/assets/images/productos/espiral02.jpg",
+          "/assets/images/productos/espiral03.jpg",
+          "/assets/images/productos/espiral01.jpg"
         ],
         descripcion: "Concentrador gravimétrico de pulsación para recuperación de oro, estaño, tungsteno y otros minerales pesados.",
         especificaciones: [
