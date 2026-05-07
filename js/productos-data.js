@@ -15,15 +15,15 @@ const productosData = {
     subtitulo: "Equipos para recuperación de minerales pesados por gravedad",
     productos: [
       {
-        id: "espiral",
-        nombre: "Espiral",
+        id: "espiral-concentradora",
+        nombre: "Espiral Concentradora",
         imagenes: [
           "/assets/images/productos/espiral01.jpg",
           "/assets/images/productos/espiral02.jpg",
           "/assets/images/productos/espiral03.jpg",
           "/assets/images/productos/espiral01.jpg"
         ],
-        descripcion: "Concentrador gravimétrico de pulsación para recuperación de oro, estaño, tungsteno y otros minerales pesados.",
+        descripcion: "Concentrador gravimétrico helicoidal para recuperación de oro, estaño, tungsteno y otros minerales pesados. Separa minerales por diferencia de densidad sin uso de mercurio ni reactivos químicos.",
         especificaciones: [
           "Capacidad: 2-10 TPH",
           "Potencia: 3 HP",
