@@ -419,7 +419,8 @@ function generarProductCard(producto) {
   imagenes.forEach(function (img, index) {
     var activeClass = index === 0 ? ' active' : '';
     slidesHTML += '<div class="product-slider__slide' + activeClass + '">' +
-      '<img class="product-card__image" src="' + img + '" alt="' + producto.nombre + '" loading="lazy">' +
+      '<img class="product-card__image" src="' + img + '" alt="' + producto.nombre + '" loading="lazy"' +
+      ' onerror="this.parentElement.style.display=\'none\'; ocultarSliderSiEsNecesario(this.parentElement.parentElement);">' +
       '</div>';
     dotsHTML += '<span class="product-slider__dot' + activeClass + '" data-index="' + index + '"></span>';
   });

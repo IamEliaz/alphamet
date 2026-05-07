@@ -12,6 +12,28 @@
 document.addEventListener('DOMContentLoaded', function () {
 
   // ============================================================
+  // HERO VIDEO - REPRODUCCIÓN AUTOMÁTICA EN MÓVILES
+  // ============================================================
+  var heroVideo = document.querySelector('.hero__video');
+  if (heroVideo) {
+    // Intentar reproducir inmediatamente
+    var playPromise = heroVideo.play();
+
+    if (playPromise !== undefined) {
+      playPromise.catch(function () {
+        // Si falla (ej: Safari iOS), esperar la primera interacción del usuario
+        var playOnInteraction = function () {
+          heroVideo.play();
+          document.removeEventListener('touchstart', playOnInteraction);
+          document.removeEventListener('click', playOnInteraction);
+        };
+        document.addEventListener('touchstart', playOnInteraction);
+        document.addEventListener('click', playOnInteraction);
+      });
+    }
+  }
+
+  // ============================================================
   // HEADER - SCROLL EFFECT
   // ============================================================
   const header = document.querySelector('.header');
@@ -386,6 +408,38 @@ document.addEventListener('DOMContentLoaded', function () {
     slides[index].classList.add('active');
     if (dots[index]) dots[index].classList.add('active');
   }
+
+  // ============================================================
+  // PRODUCT SLIDER - OCULTAR SLIDES CON IMAGEN ROTA
+  // ============================================================
+  // Función global llamada desde onerror en las imágenes del slider
+  window.ocultarSliderSiEsNecesario = function (slider) {
+    // Contar cuántos slides visibles quedan
+    var slidesVisibles = slider.querySelectorAll('.product-slider__slide[style*="display: none"]');
+    var totalSlides = slider.querySelectorAll('.product-slider__slide').length;
+    var visibles = totalSlides - slidesVisibles.length;
+
+    // Si solo queda 1 slide visible, ocultar botones y dots
+    var prevBtn = slider.querySelector('.product-slider__prev');
+    var nextBtn = slider.querySelector('.product-slider__next');
+    var dots = slider.querySelector('.product-slider__dots');
+
+    if (visibles <= 1) {
+      if (prevBtn) prevBtn.style.display = 'none';
+      if (nextBtn) nextBtn.style.display = 'none';
+      if (dots) dots.style.display = 'none';
+    }
+
+    // Si el slide activo se ocultó, activar el primer slide visible
+    var activo = slider.querySelector('.product-slider__slide.active');
+    if (!activo || activo.style.display === 'none') {
+      var primerVisible = slider.querySelector('.product-slider__slide:not([style*="display: none"])');
+      if (primerVisible) {
+        var idx = Array.prototype.indexOf.call(slider.querySelectorAll('.product-slider__slide'), primerVisible);
+        irASlide(slider, idx);
+      }
+    }
+  };
 
   // ============================================================
   // AÑO ACTUAL EN FOOTER
