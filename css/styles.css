@@ -397,11 +397,21 @@ span, div, section, header, footer, nav, button, a, li, input, textarea, select,
 
 .hero-text {
   display: inline-block;
-  background: linear-gradient(135deg, #FFFFFF 0%, var(--accent) 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
   animation: fadeInUp 1s ease 0.5s both;
+}
+
+.hero-white {
+  color: #FFFFFF;
+}
+
+.hero-gold {
+  color: var(--accent);
+}
+
+.hero-underline {
+  background: linear-gradient(180deg, transparent 60%, rgba(212, 160, 23, 0.3) 60%);
+  padding: 0 4px;
+  display: inline;
 }
 
 .hero__subtitle {

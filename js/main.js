@@ -309,16 +309,17 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 
   // ============================================================
-  // PRODUCT CARDS - BOTÓN CONSULTAR WHATSAPP
+  // PRODUCT CARDS - BOTÓN CONSULTAR WHATSAPP (con delegación)
   // ============================================================
-  document.querySelectorAll('.product-card__btn').forEach(function (btn) {
-    btn.addEventListener('click', function (e) {
+  document.addEventListener('click', function (e) {
+    var btn = e.target.closest('.product-card__btn');
+    if (btn) {
       e.preventDefault();
-      const productName = this.getAttribute('data-product') || 'Equipo';
-      const message = `Hola, me interesa el equipo: ${productName}`;
-      const url = `https://wa.me/51929175492?text=${encodeURIComponent(message)}`;
+      var productName = btn.getAttribute('data-product') || 'Equipo';
+      var message = 'Hola, me interesa el equipo: ' + productName;
+      var url = 'https://wa.me/51929175492?text=' + encodeURIComponent(message);
       window.open(url, '_blank');
-    });
+    }
   });
 
   // ============================================================
