@@ -14,9 +14,6 @@ const proyectosData = [
     descripcion: "Diseño e instalación completa de planta concentradora gravimétrica con capacidad de 50 toneladas por día. Incluyó sistema de chancado, molienda, concentración gravimétrica y mesa vibratoria para recuperación de oro.",
     media: [
       { tipo: "video", src: "/assets/images/proyectos/pespiral01.mp4" },
-      { tipo: "imagen", src: "/assets/images/proyectos/" },
-      { tipo: "imagen", src: "/assets/images/proyectos/" },
-      { tipo: "", src: "/assets/images/proyectos/" }
     ]
   },
   {
@@ -28,9 +25,6 @@ const proyectosData = [
     descripcion: "Supervisión técnica especializada para la puesta en marcha de planta gravimétrica de 30 TPD. Optimización de parámetros operativos y capacitación del personal local en operación y mantenimiento.",
     media: [
       { tipo: "video", src: "/assets/images/proyectos/pespiral02.mp4" },
-      { tipo: "video", src: "/assets/videos/proyectos/proyecto-2.mp4" },
-      { tipo: "imagen", src: "/assets/images/proyectos/proyecto-2b.jpg" },
-      { tipo: "imagen", src: "/assets/images/proyectos/proyecto-2c.jpg" }
     ]
   },
   {
@@ -42,9 +36,6 @@ const proyectosData = [
     descripcion: "Contrato de mantenimiento preventivo y correctivo por 12 meses para planta de flotación de 40 TPD. Atención de emergencias 24/7 y suministro de repuestos originales.",
     media: [
       { tipo: "video", src: "/assets/images/proyectos/pmesag01.mp4" },
-      { tipo: "imagen", src: "/assets/images/proyectos/proyecto-3b.jpg" },
-      { tipo: "video", src: "/assets/videos/proyectos/proyecto-3.mp4" },
-      { tipo: "imagen", src: "/assets/images/proyectos/proyecto-3c.jpg" }
     ]
   },
   {
@@ -56,9 +47,6 @@ const proyectosData = [
     descripcion: "Montaje e instalación de planta de flotación de 60 TPD para minerales sulfurados. Incluyó celdas de flotación, sistema de reactivos, bombeo de pulpas y tablero de control eléctrico.",
     media: [
       { tipo: "video", src: "/assets/images/proyectos/pmesag02.mp4" },
-      { tipo: "imagen", src: "/assets/images/proyectos/proyecto-4b.jpg" },
-      { tipo: "imagen", src: "/assets/images/proyectos/proyecto-4c.jpg" },
-      { tipo: "video", src: "/assets/videos/proyectos/proyecto-4.mp4" }
     ]
   },
   {
@@ -70,9 +58,6 @@ const proyectosData = [
     descripcion: "Servicio logístico integral para traslado de concentrados de oro desde Madre de Dios hasta plantas de procesamiento en Arequipa. Gestión de permisos y seguros de carga.",
     media: [
       { tipo: "video", src: "/assets/images/proyectos/pmolino01.mp4" },
-      { tipo: "imagen", src: "/assets/images/proyectos/proyecto-5b.jpg" },
-      { tipo: "imagen", src: "/assets/images/proyectos/proyecto-5c.jpg" },
-      { tipo: "imagen", src: "/assets/images/proyectos/proyecto-5d.jpg" }
     ]
   },
   {
@@ -84,9 +69,6 @@ const proyectosData = [
     descripcion: "Adquisición directa de concentrados de oro con leyes promedio de 40-60 g/ton. Proceso transparente con pago inmediato basado en cotización internacional y análisis metalúrgico certificado.",
     media: [
       { tipo: "video", src: "/assets/images/proyectos/pmolino02.mp4" },
-      { tipo: "video", src: "/assets/videos/proyectos/proyecto-6.mp4" },
-      { tipo: "imagen", src: "/assets/images/proyectos/proyecto-6b.jpg" },
-      { tipo: "imagen", src: "/assets/images/proyectos/proyecto-6c.jpg" }
     ]
   }
 ];
