@@ -1018,6 +1018,123 @@ span, div, section, header, footer, nav, button, a, li, input, textarea, select,
 }
 
 /* ============================================================
+   PROJECT SLIDER
+   ============================================================ */
+.project-slider {
+  position: relative;
+  width: 100%;
+  height: 220px;
+  overflow: hidden;
+  background: var(--bg-card);
+}
+
+.project-slider__slides {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.project-slider__slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.5s ease, visibility 0.5s ease;
+}
+
+.project-slider__slide.active {
+  opacity: 1;
+  visibility: visible;
+  position: relative;
+}
+
+.project-slider__media {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 0;
+}
+
+.project-slider__btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border: none;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background var(--transition-fast);
+  opacity: 0;
+  transition: opacity 0.3s ease, background var(--transition-fast);
+}
+
+.project-slider:hover .project-slider__btn {
+  opacity: 1;
+}
+
+.project-slider__btn:hover {
+  background: rgba(212, 160, 23, 0.8);
+}
+
+.project-slider__prev {
+  left: 10px;
+}
+
+.project-slider__next {
+  right: 10px;
+}
+
+.project-slider__dots {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 6px;
+  z-index: 10;
+}
+
+.project-slider__dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.4);
+  cursor: pointer;
+  transition: background var(--transition-fast);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.project-slider__dot.active {
+  background: var(--accent);
+  border-color: var(--accent);
+}
+
+.project-slider__dot:hover {
+  background: rgba(255, 255, 255, 0.7);
+}
+
+/* Ajustar project-card para que funcione con slider */
+.project-card .project-slider {
+  border-radius: 0;
+}
+
+.project-card .project-slider__media {
+  border-radius: 0;
+}
+
+/* ============================================================
    CATEGORY SECTION
    ============================================================ */
 .category-section {
