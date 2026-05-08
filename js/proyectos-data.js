@@ -16,7 +16,7 @@ const proyectosData = [
       { tipo: "video", src: "/assets/images/proyectos/pespiral01.mp4" },
       { tipo: "imagen", src: "/assets/images/proyectos/" },
       { tipo: "imagen", src: "/assets/images/proyectos/" },
-      { tipo: "imagen", src: "/assets/images/proyectos/" }
+      { tipo: "", src: "/assets/images/proyectos/" }
     ]
   },
   {
