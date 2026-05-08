@@ -14,9 +14,9 @@ const proyectosData = [
     descripcion: "Diseño e instalación completa de planta concentradora gravimétrica con capacidad de 50 toneladas por día. Incluyó sistema de chancado, molienda, concentración gravimétrica y mesa vibratoria para recuperación de oro.",
     media: [
       { tipo: "video", src: "/assets/images/proyectos/pespiral01.mp4" },
-      { tipo: "imagen", src: "/assets/images/proyectos/proyecto-1b.jpg" },
-      { tipo: "imagen", src: "/assets/images/proyectos/proyecto-1c.jpg" },
-      { tipo: "imagen", src: "/assets/images/proyectos/proyecto-1d.jpg" }
+      { tipo: "imagen", src: "/assets/images/proyectos/" },
+      { tipo: "imagen", src: "/assets/images/proyectos/" },
+      { tipo: "imagen", src: "/assets/images/proyectos/" }
     ]
   },
   {
