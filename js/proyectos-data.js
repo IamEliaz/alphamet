@@ -6,14 +6,14 @@
 
 const proyectosData = [
   {
-    id: "planta-50-tpd-puno",
-    titulo: "Instalación Planta 50 TPD",
+    id: "planta-cusco-01",
+    titulo: "Planta en Quiquito",
     servicio: "Instalación de Plantas",
     estado: "Completado",
-    ubicacion: "Puno, Perú",
+    ubicacion: "Quiquito, Perú",
     descripcion: "Diseño e instalación completa de planta concentradora gravimétrica con capacidad de 50 toneladas por día. Incluyó sistema de chancado, molienda, concentración gravimétrica y mesa vibratoria para recuperación de oro.",
     media: [
-      { tipo: "imagen", src: "/assets/images/proyectos/proyecto-1.jpg" },
+      { tipo: "video", src: "/assets/images/proyectos/planta04.mp4" },
       { tipo: "imagen", src: "/assets/images/proyectos/proyecto-1b.jpg" },
       { tipo: "imagen", src: "/assets/images/proyectos/proyecto-1c.jpg" },
       { tipo: "imagen", src: "/assets/images/proyectos/proyecto-1d.jpg" }
