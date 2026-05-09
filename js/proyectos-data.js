@@ -6,31 +6,31 @@
 
 const proyectosData = [
   {
-    id: "planta-cusco-01",
-    titulo: "Planta en Quiquito",
+    id: "pespiral-01",
+    titulo: "Espirales concentradoras + Mesas Gravimétricas",
     servicio: "Instalación de Plantas",
     estado: "Completado",
-    ubicacion: "Quiquito, Perú",
-    descripcion: "Diseño e instalación completa de planta concentradora gravimétrica con capacidad de 50 toneladas por día. Incluyó sistema de chancado, molienda, concentración gravimétrica y mesa vibratoria para recuperación de oro.",
+    ubicacion: "Cuzco, Perú",
+    descripcion: "Diseño e instalación de planta concentradora gravimétrica con espirales concentradoras y mesas gravimétricas para recuperación de oro y minerales pesados.",
     media: [
       { tipo: "video", src: "/assets/images/proyectos/pespiral01.mp4" },
     ]
   },
   {
-    id: "puesta-marcha-arequipa",
-    titulo: "Puesta en Marcha Planta Gravimétrica",
-    servicio: "Puesta en Marcha",
+    id: "pespiral-02",
+    titulo: "Espiral concentradora",
+    servicio: "Instalación de Plantas",
     estado: "Completado",
-    ubicacion: "Arequipa, Perú",
-    descripcion: "Supervisión técnica especializada para la puesta en marcha de planta gravimétrica de 30 TPD. Optimización de parámetros operativos y capacitación del personal local en operación y mantenimiento.",
+    ubicacion: "Cuzco, Perú",
+    descripcion: "Instalación y puesta en marcha de espiral concentradora para recuperación de minerales pesados mediante gravimetría con agua.",
     media: [
       { tipo: "video", src: "/assets/images/proyectos/pespiral02.mp4" },
     ]
   },
   {
-    id: "soporte-la-libertad",
+    id: "pmesag-01",
     titulo: "Soporte Técnico Continuo",
-    servicio: "Soporte Técnico",
+    servicio: "Instalación de Plantas",
     estado: "Completado",
     ubicacion: "La Libertad, Perú",
     descripcion: "Contrato de mantenimiento preventivo y correctivo por 12 meses para planta de flotación de 40 TPD. Atención de emergencias 24/7 y suministro de repuestos originales.",
@@ -52,7 +52,7 @@ const proyectosData = [
   {
     id: "transporte-madre-dios",
     titulo: "Transporte y Logística Minera",
-    servicio: "Transporte de Minerales",
+    servicio: "Instalación de Plantas",
     estado: "Completado",
     ubicacion: "Madre de Dios, Perú",
     descripcion: "Servicio logístico integral para traslado de concentrados de oro desde Madre de Dios hasta plantas de procesamiento en Arequipa. Gestión de permisos y seguros de carga.",
@@ -63,7 +63,7 @@ const proyectosData = [
   {
     id: "compra-concentrados-cusco",
     titulo: "Compra de Concentrados de Oro",
-    servicio: "Compra de Minerales",
+    servicio: "Instalación de Plantas",
     estado: "Completado",
     ubicacion: "Cusco, Perú",
     descripcion: "Adquisición directa de concentrados de oro con leyes promedio de 40-60 g/ton. Proceso transparente con pago inmediato basado en cotización internacional y análisis metalúrgico certificado.",
