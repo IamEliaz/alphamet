@@ -7,7 +7,7 @@
 const proyectosData = [
   {
     id: "pespiral-01",
-    titulo: "Espirales concentradoras + Mesas Gravimétricas",
+    titulo: "Planta con espirales concentradoras + Mesas Gravimétricas",
     servicio: "Instalación de Plantas",
     estado: "Completado",
     ubicacion: "Cuzco, Perú",
@@ -18,7 +18,7 @@ const proyectosData = [
   },
   {
     id: "pespiral-02",
-    titulo: "Espiral concentradora",
+    titulo: "Planta con espiral concentradora",
     servicio: "Instalación de Plantas",
     estado: "Completado",
     ubicacion: "Cuzco, Perú",
@@ -29,44 +29,44 @@ const proyectosData = [
   },
   {
     id: "pmesag-01",
-    titulo: "Soporte Técnico Continuo",
+    titulo: "Instalación de mesa gravimétrica",
     servicio: "Instalación de Plantas",
     estado: "Completado",
-    ubicacion: "La Libertad, Perú",
-    descripcion: "Contrato de mantenimiento preventivo y correctivo por 12 meses para planta de flotación de 40 TPD. Atención de emergencias 24/7 y suministro de repuestos originales.",
+    ubicacion: "Arequipa, Perú",
+    descripcion: "Proyecto de suministro e instalación de mesa gravimétrica para concentración de minerales pesados, incluyendo montaje mecánico, nivelación y puesta en marcha del equipo en planta del cliente.",
     media: [
       { tipo: "video", src: "/assets/images/proyectos/pmesag01.mp4" },
     ]
   },
   {
-    id: "flotacion-cajamarca",
-    titulo: "Instalación Planta de Flotación",
+    id: "pmesag-02.",
+    titulo: "Montaje y puesta en marcha de mesa gravimétrica",
     servicio: "Instalación de Plantas",
     estado: "Completado",
-    ubicacion: "Cajamarca, Perú",
-    descripcion: "Montaje e instalación de planta de flotación de 60 TPD para minerales sulfurados. Incluyó celdas de flotación, sistema de reactivos, bombeo de pulpas y tablero de control eléctrico.",
+    ubicacion: "Arequipa, Perú",
+    descripcion: "Proyecto de montaje y puesta en marcha de mesa gravimétrica en Arequipa, incluyendo instalación mecánica, calibración de parámetros operativos y verificación de eficiencia en recuperación de minerales.",
     media: [
       { tipo: "video", src: "/assets/images/proyectos/pmesag02.mp4" },
     ]
   },
   {
-    id: "transporte-madre-dios",
-    titulo: "Transporte y Logística Minera",
+    id: "pmolino-01",
+    titulo: "Instalación de planta (Chancadora - Molino y Mesas gravimétricas)",
     servicio: "Instalación de Plantas",
     estado: "Completado",
-    ubicacion: "Madre de Dios, Perú",
-    descripcion: "Servicio logístico integral para traslado de concentrados de oro desde Madre de Dios hasta plantas de procesamiento en Arequipa. Gestión de permisos y seguros de carga.",
+    ubicacion: "Cuzco, Perú",
+    descripcion: "Proyecto de instalación integral de planta de procesamiento mineral que comprendió chancadora, molino y mesas gravimétricas para recuperación de oro, garantizando eficiencia operativa y continuidad productiva en Cuzco.",
     media: [
       { tipo: "video", src: "/assets/images/proyectos/pmolino01.mp4" },
     ]
   },
   {
-    id: "compra-concentrados-cusco",
-    titulo: "Compra de Concentrados de Oro",
+    id: "pmolino-02",
+    titulo: "Planta con Molino y Mesas gravimétricas",
     servicio: "Instalación de Plantas",
     estado: "Completado",
-    ubicacion: "Cusco, Perú",
-    descripcion: "Adquisición directa de concentrados de oro con leyes promedio de 40-60 g/ton. Proceso transparente con pago inmediato basado en cotización internacional y análisis metalúrgico certificado.",
+    ubicacion: "Cuzco, Perú",
+    descripcion: "Proyecto de suministro e instalación de planta con molino y mesas gravimétricas para concentración gravimétrica de minerales auríferos, asegurando la correcta puesta en marcha y operatividad del sistema en Cuzco.",
     media: [
       { tipo: "video", src: "/assets/images/proyectos/pmolino02.mp4" },
     ]
