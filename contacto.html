@@ -11,6 +11,7 @@
   <meta property="og:description" content="Contáctanos para cotizaciones y servicios mineros.">
   <link rel="icon" type="image/png" href="assets/icons/favicon.png">
   <link rel="stylesheet" href="/css/styles.css">
+  <script src="https://www.google.com/recaptcha/api.js?render=6Lf6zeEsAAAAAHaPKPxK0fv36E1gyl3CoO5vm_zF"></script>
 </head>
 <body>
 
@@ -84,6 +85,7 @@
               <textarea id="mensaje" name="mensaje" rows="6" placeholder="Describe tu consulta o requerimiento..." required></textarea>
             </div>
             <input type="text" name="_gotcha" style="display:none">
+            <input type="hidden" name="g-recaptcha-response" id="g-recaptcha-response">
             <button type="submit" class="btn btn-primary btn-block">Enviar Mensaje</button>
           </form>
         </div>
@@ -201,6 +203,18 @@
   <script>
   document.getElementById('email-footer').innerHTML = 
   ['elias','udhconecta.com'].join('@');
+  </script>
+  <script>
+  document.querySelector('form').addEventListener('submit', function(e) {
+    e.preventDefault();
+    var form = this;
+    grecaptcha.ready(function() {
+      grecaptcha.execute('6Lf6zeEsAAAAAHaPKPxK0fv36E1gyl3CoO5vm_zF', {action: 'contact'}).then(function(token) {
+        document.getElementById('g-recaptcha-response').value = token;
+        form.submit();
+      });
+    });
+  });
   </script>
   <script src="/js/main.js"></script>
 </body>
