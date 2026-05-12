@@ -410,8 +410,71 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
   // ============================================================
+  // SLIDER - AUTOPLAY (deslizamiento automático para productos)
+  // ============================================================
+  var autoplayTimers = {};
+
+  function iniciarAutoplay(slider) {
+    var sliderId = slider.getAttribute('data-product-id') || Math.random();
+    var slides = slider.querySelectorAll('.product-slider__slide');
+    if (slides.length <= 1) return;
+
+    // Limpiar timer existente
+    detenerAutoplay(slider);
+
+    autoplayTimers[sliderId] = setInterval(function () {
+      cambiarSlide(slider, 1);
+    }, 4000);
+  }
+
+  function detenerAutoplay(slider) {
+    var sliderId = slider.getAttribute('data-product-id') || Math.random();
+    if (autoplayTimers[sliderId]) {
+      clearInterval(autoplayTimers[sliderId]);
+      delete autoplayTimers[sliderId];
+    }
+  }
+
+  function reiniciarAutoplay(slider) {
+    detenerAutoplay(slider);
+    iniciarAutoplay(slider);
+  }
+
+  // Iniciar autoplay en todos los sliders de productos existentes
+  function iniciarAutoplayTodos() {
+    document.querySelectorAll('.product-slider').forEach(function (slider) {
+      iniciarAutoplay(slider);
+    });
+  }
+
+  // Pausar autoplay al hacer hover o click en el slider
+  document.addEventListener('mouseenter', function (e) {
+    var slider = e.target.closest('.product-slider');
+    if (slider) detenerAutoplay(slider);
+  }, true);
+
+  document.addEventListener('mouseleave', function (e) {
+    var slider = e.target.closest('.product-slider');
+    if (slider) iniciarAutoplay(slider);
+  }, true);
+
+  // Al hacer clic en botones/dots del slider, reiniciar autoplay
+  document.addEventListener('click', function (e) {
+    var slider = e.target.closest('.product-slider');
+    if (slider) reiniciarAutoplay(slider);
+  }, true);
+
+  // Iniciar autoplay cuando se cargue el DOM
+  iniciarAutoplayTodos();
+
+  // También iniciar autoplay para sliders que se generen dinámicamente
+  // (se ejecuta después de que productos-data.js genere el HTML)
+  setTimeout(iniciarAutoplayTodos, 500);
+
+  // ============================================================
   // SLIDER - OCULTAR SLIDES CON MEDIA ROTA (productos y proyectos)
   // ============================================================
+
   // Función global llamada desde onerror en imágenes/videos del slider
   window.ocultarSliderSiEsNecesario = function (slider) {
     // Contar cuántos slides visibles quedan
