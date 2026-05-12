@@ -52,15 +52,15 @@ const productosData = {
         destacado: false
       },
       {
-        id: "zaranda-vibratoria",
-        nombre: "Zaranda Vibratoria",
+        id: "molino-de-bolas",
+        nombre: "Molino de bolas",
         imagenes: [
-          "/assets/images/productos/zaranda-vibratoria.jpg",
-          "/assets/images/productos/zaranda-vibratoria-2.jpg",
-          "/assets/images/productos/zaranda-vibratoria-3.jpg",
-          "/assets/images/productos/zaranda-vibratoria-4.jpg"
+          "/assets/images/productos/molinob01.jpg",
+          "/assets/images/productos/molinob02.jpg",
+          "/assets/images/productos/molinob03.jpg",
+          "/assets/images/productos/molinob04.jpg"
         ],
-        descripcion: "Clasificador vibratorio para separación de minerales por tamaño. Mallas intercambiables para diferentes granulometrías.",
+        descripcion: "Molino para reducción de tamaño de partículas mediante molienda húmeda o seca. Ideal para la preparación de pulpas en plantas de concentración gravimétrica y flotación.",
         especificaciones: [
           "Capacidad: 5-50 TPH",
           "Potencia: 5 HP",
