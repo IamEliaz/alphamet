@@ -52,19 +52,19 @@ const productosData = {
         destacado: false
       },
       {
-        id: "molino-de-bolas",
-        nombre: "Molino de bolas",
+        id: "concentrador-jig",
+        nombre: "Concentradores Jig",
         imagenes: [
-          "/assets/images/productos/molinob01.jpg",
-          "/assets/images/productos/molinob02.jpg",
-          "/assets/images/productos/molinob03.jpg",
-          "/assets/images/productos/molinob04.jpg"
+          "/assets/images/productos/concentjig01.jpg",
+          "/assets/images/productos/concentjig02.jpg",
+          "/assets/images/productos/concentjig03.jpg",
+          "/assets/images/productos/concentjig04.jpg"
         ],
-        descripcion: "Molino para reducción de tamaño de partículas mediante molienda húmeda o seca. Ideal para la preparación de pulpas en plantas de concentración gravimétrica y flotación.",
+        descripcion: "Concentrador gravimétrico de pulsación hidráulica para recuperación de minerales pesados en oro aluvial, estaño, tungsteno y otros metales preciosos. Separa por diferencia de densidad mediante ciclos de pulsación con agua.",
         especificaciones: [
-          "Capacidad: Varias",
-          "Potencia: Varias",
-          "Dimensiones variables"
+          "Capacidad: 1-25 Ton/hora",
+          "Método: Pulsación hidráulica",
+          "Alimentación: hasta 25 mm"
         ],
         destacado: false
       },
