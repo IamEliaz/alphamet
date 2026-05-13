@@ -174,19 +174,19 @@ const productosData = {
     subtitulo: "Equipos para procesos de concentración por flotación y lixiviación",
     productos: [
       {
-        id: "celda-flotacion",
-        nombre: "Celda de Flotación",
+        id: "bomba-de-pulpas",
+        nombre: "Bomba de Pulpas",
         imagenes: [
-          "/assets/images/productos/celda-flotacion.jpg",
-          "/assets/images/productos/celda-flotacion-2.jpg",
-          "/assets/images/productos/celda-flotacion-3.jpg",
-          "/assets/images/productos/celda-flotacion-4.jpg"
+          "/assets/images/productos/bombap01.jpg",
+          "/assets/images/productos/bombap02.jpg",
+          "/assets/images/productos/bombap03.jpg",
+          "/assets/images/productos/bombap04.jpg"
         ],
-        descripcion: "Equipo para procesos de flotación de minerales sulfurados y oxidados. Alta eficiencia en recuperación de concentrados.",
+        descripcion: "Bomba centrífuga especializada para el transporte de pulpas minerales con alto contenido de sólidos abrasivos y corrosivos. Ampliamente usada en circuitos de flotación, lixiviación y concentración gravimétrica.",
         especificaciones: [
-          "Capacidad: 1-50 m³",
-          "Potencia: 5-30 HP",
-          "Acero revestido"
+          "Caudal: 10-200 m³/h",
+          "Potencia: 5-50 HP",
+          "Sólidos: hasta 60%"
         ],
         destacado: true
       },
