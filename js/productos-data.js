@@ -62,22 +62,32 @@ const productosData = {
         ],
         descripcion: "Molino para reducción de tamaño de partículas mediante molienda húmeda o seca. Ideal para la preparación de pulpas en plantas de concentración gravimétrica y flotación.",
         especificaciones: [
-          "Capacidad: 5-50 TPH",
-          "Potencia: 5 HP",
-          "Mallas de acero"
+          "Capacidad: Varias",
+          "Potencia: Varias",
+          "Dimensiones variables"
         ],
         destacado: false
       },
       {
-        id: "concentrador-centrifugo",
-        nombre: "Concentrador Centrífugo",
+        id: "chancadora-de-quijada",
+        nombre: "Chancadora de Quijada",
         imagenes: [
-          "/assets/images/productos/concentrador-centrifugo.jpg",
-          "/assets/images/productos/concentrador-centrifugo-2.jpg",
-          "/assets/images/productos/concentrador-centrifugo-3.jpg",
-          "/assets/images/productos/concentrador-centrifugo-4.jpg"
+          "/assets/images/productos/chancadora01.jpg",
+          "/assets/images/productos/chancadora02.jpg",
+          "/assets/images/productos/chancadora03.jpg",
+          "/assets/images/productos/chancadora04.jpg"
         ],
-        descripcion: "Concentrador centrífugo para recuperación de oro fino. Alta eficiencia en la captura de partículas ultrafinas.",
+        descripcion: "Equipo de reducción primaria de tamaño para minerales de alta dureza. Ideal como primera etapa en plantas de procesamiento gravimétrico antes del molino y la concentración.",
+        especificaciones: [
+          "Capacidad: Variable",
+          "Potencia: Variable",
+          "Dimensiones variables"
+        ],
+        destacado: false
+      },
+      {
+        id: "espiral-concentradora",
+        nombre: "Espiral Concentradora",
         especificaciones: [
           "Capacidad: 1-5 TPH",
           "Potencia: 2 HP",
