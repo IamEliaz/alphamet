@@ -157,19 +157,19 @@ const productosData = {
         destacado: true
       },
       {
-        id: "tanque-lixiviacion",
-        nombre: "Tanque de Lixiviación",
+        id: "agitador-condicionador",
+        nombre: "Agitador Acondicionador",
         imagenes: [
-          "/assets/images/productos/tanque-lixiviacion.jpg",
-          "/assets/images/productos/tanque-lixiviacion-2.jpg",
-          "/assets/images/productos/tanque-lixiviacion-3.jpg",
-          "/assets/images/productos/tanque-lixiviacion-4.jpg"
+          "/assets/images/productos/agitador01.jpg",
+          "/assets/images/productos/agitador02.jpg",
+          "/assets/images/productos/agitador03.jpg",
+          "/assets/images/productos/agitador04.jpg"
         ],
-        descripcion: "Tanque agitado para procesos de lixiviación de oro y plata con cianuro u otros reactivos.",
+        descripcion: "Tanque de agitación para mezcla y acondicionamiento de pulpas minerales con reactivos previo al proceso de flotación o lixiviación. Garantiza homogeneidad de la mezcla y tiempo de contacto óptimo entre el mineral y los reactivos.",
         especificaciones: [
-          "Capacidad: 5-100 m³",
-          "Potencia: 5-20 HP",
-          "Acero revestido"
+          "Capacidad: 0.35-320 m³",
+          "Potencia: 1.5-55 HP",
+          "Velocidad: 15-100 rpm"
         ],
         destacado: false
       },
@@ -187,40 +187,6 @@ const productosData = {
           "Caudal: 10-200 m³/h",
           "Potencia: 5-50 HP",
           "Hierro blanco"
-        ],
-        destacado: false
-      },
-      {
-        id: "agitador-mecanico",
-        nombre: "Agitador Mecánico",
-        imagenes: [
-          "/assets/images/productos/agitador-mecanico.jpg",
-          "/assets/images/productos/agitador-mecanico-2.jpg",
-          "/assets/images/productos/agitador-mecanico-3.jpg",
-          "/assets/images/productos/agitador-mecanico-4.jpg"
-        ],
-        descripcion: "Sistema de agitación para tanques de lixiviación y acondicionamiento de pulpas minerales.",
-        especificaciones: [
-          "Capacidad: 5-50 m³",
-          "Potencia: 3-15 HP",
-          "Acero inoxidable"
-        ],
-        destacado: false
-      },
-      {
-        id: "filtro-prensa",
-        nombre: "Filtro Prensa",
-        imagenes: [
-          "/assets/images/productos/filtro-prensa.jpg",
-          "/assets/images/productos/filtro-prensa-2.jpg",
-          "/assets/images/productos/filtro-prensa-3.jpg",
-          "/assets/images/productos/filtro-prensa-4.jpg"
-        ],
-        descripcion: "Equipo de filtración para deshidratación de concentrados y relaves. Reduce la humedad al mínimo.",
-        especificaciones: [
-          "Capacidad: 5-50 TPD",
-          "Presión: 15 bar",
-          "Placas de polipropileno"
         ],
         destacado: false
       }
@@ -253,19 +219,19 @@ const productosData = {
         destacado: false
       },
       {
-        id: "faja-transportadora",
-        nombre: "Faja Transportadora",
+        id: "accesorios-varios",
+        nombre: "Accesorios Varios",
         imagenes: [
-          "/assets/images/productos/faja-transportadora.jpg",
-          "/assets/images/productos/faja-transportadora-2.jpg",
-          "/assets/images/productos/faja-transportadora-3.jpg",
-          "/assets/images/productos/faja-transportadora-4.jpg"
+          "/assets/images/productos/accesoriosv01.jpg",
+          "/assets/images/productos/accesoriosv02.jpg",
+          "/assets/images/productos/accesoriosv03.jpg",
+          "/assets/images/productos/accesoriosv04.jpg"
         ],
-        descripcion: "Sistema de transporte continuo para minerales. Ideal para alimentación de plantas y movimiento de materiales.",
+        descripcion: "Equipos auxiliares para el control, clasificación y tratamiento de materiales en plantas de procesamiento mineral. Incluye separadores magnéticos, colectores de polvo y ciclones para optimizar la eficiencia operativa de la planta.",
         especificaciones: [
-          "Ancho: 18-48 pulg",
-          "Potencia: 3-25 HP",
-          "Caucho vulcanizado"
+          "Aplicación: Variable según equipo",
+          "Material: Acero estructural",
+          "Potencia: Variable"
         ],
         destacado: false
       },
@@ -283,40 +249,6 @@ const productosData = {
           "Capacidad: 5-50 ton",
           "Acero estructural",
           "Con feeder"
-        ],
-        destacado: false
-      },
-      {
-        id: "bomba-centrifuga",
-        nombre: "Bomba Centrífuga",
-        imagenes: [
-          "/assets/images/productos/bomba-centrifuga.jpg",
-          "/assets/images/productos/bomba-centrifuga-2.jpg",
-          "/assets/images/productos/bomba-centrifuga-3.jpg",
-          "/assets/images/productos/bomba-centrifuga-4.jpg"
-        ],
-        descripcion: "Bomba centrífuga multietapa para aplicaciones mineras. Ideal para sistemas de agua y pulpas diluidas.",
-        especificaciones: [
-          "Caudal: 10-150 m³/h",
-          "Potencia: 5-40 HP",
-          "Acero inoxidable"
-        ],
-        destacado: false
-      },
-      {
-        id: "tablero-electrico",
-        nombre: "Tablero Eléctrico",
-        imagenes: [
-          "/assets/images/productos/tablero-electrico.jpg",
-          "/assets/images/productos/tablero-electrico-2.jpg",
-          "/assets/images/productos/tablero-electrico-3.jpg",
-          "/assets/images/productos/tablero-electrico-4.jpg"
-        ],
-        descripcion: "Tablero de control y distribución eléctrica para plantas mineras. Incluye protecciones y sistema de control.",
-        especificaciones: [
-          "Voltaje: 220-480V",
-          "IP65",
-          "Acero galvanizado"
         ],
         destacado: false
       }
