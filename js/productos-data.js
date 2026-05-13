@@ -157,19 +157,19 @@ const productosData = {
         destacado: true
       },
       {
-        id: "clasificador-espiral",
-        nombre: "Clasificador Espiral",
+        id: "Alimentadores-varios",
+        nombre: "Alimentadores (Varios tipos)",
         imagenes: [
-          "/assets/images/productos/clasificador-espiral.jpg",
-          "/assets/images/productos/clasificador-espiral-2.jpg",
-          "/assets/images/productos/clasificador-espiral-3.jpg",
-          "/assets/images/productos/clasificador-espiral-4.jpg"
+          "/assets/images/productos/alimentadores01.jpg",
+          "/assets/images/productos/alimentadores02.jpg",
+          "/assets/images/productos/alimentadores03.jpg",
+          "/assets/images/productos/alimentadores04.jpg"
         ],
-        descripcion: "Clasificador de minerales por sedimentación. Separa finos de gruesos en circuitos cerrados de molienda.",
+        descripcion: "Equipos de alimentación para dosificación uniforme y continua de material hacia los circuitos de chancado, molienda y concentración. Disponibles en versión disco, vibratorio, faja y cadena según el tipo de material y proceso requerido.",
         especificaciones: [
-          "Capacidad: 5-50 TPD",
-          "Potencia: 3-10 HP",
-          "Acero al carbono"
+          "Capacidad: Variable según modelo",
+          "Material: Acero estructural",
+          "Aplicación: Chancado, molienda, concentración"
         ],
         destacado: false
       },
