@@ -67,50 +67,6 @@ const productosData = {
           "Alimentación: hasta 25 mm"
         ],
         destacado: false
-      },
-      {
-        id: "chancadora-de-quijada",
-        nombre: "Chancadora de Quijada",
-        imagenes: [
-          "/assets/images/productos/chancadora01.jpg",
-          "/assets/images/productos/chancadora02.jpg",
-          "/assets/images/productos/chancadora03.jpg",
-          "/assets/images/productos/chancadora04.jpg"
-        ],
-        descripcion: "Equipo de reducción primaria de tamaño para minerales de alta dureza. Ideal como primera etapa en plantas de procesamiento gravimétrico antes del molino y la concentración.",
-        especificaciones: [
-          "Capacidad: Variable",
-          "Potencia: Variable",
-          "Dimensiones variables"
-        ],
-        destacado: false
-      },
-      {
-        id: "espiral-concentradora",
-        nombre: "Espiral Concentradora",
-        especificaciones: [
-          "Capacidad: 1-5 TPH",
-          "Potencia: 2 HP",
-          "Acero inoxidable"
-        ],
-        destacado: false
-      },
-      {
-        id: "espiral-concentradora",
-        nombre: "Espiral Concentradora",
-        imagenes: [
-          "/assets/images/productos/espiral-concentradora.jpg",
-          "/assets/images/productos/espiral-concentradora-2.jpg",
-          "/assets/images/productos/espiral-concentradora-3.jpg",
-          "/assets/images/productos/espiral-concentradora-4.jpg"
-        ],
-        descripcion: "Concentrador en espiral para separación gravimétrica de minerales. Ideal para arenas negras y minerales pesados.",
-        especificaciones: [
-          "Capacidad: 1-3 TPH",
-          "Sin motor",
-          "Poliuretano"
-        ],
-        destacado: false
       }
     ]
   },
