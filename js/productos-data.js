@@ -128,40 +128,6 @@ const productosData = {
           "Aplicación: Chancado, molienda, concentración"
         ],
         destacado: false
-      },
-      {
-        id: "hidrociclon",
-        nombre: "Hidrociclón",
-        imagenes: [
-          "/assets/images/productos/hidrociclon.jpg",
-          "/assets/images/productos/hidrociclon-2.jpg",
-          "/assets/images/productos/hidrociclon-3.jpg",
-          "/assets/images/productos/hidrociclon-4.jpg"
-        ],
-        descripcion: "Clasificador centrífugo para separación de partículas finas y gruesas en suspensiones minerales.",
-        especificaciones: [
-          "Capacidad: 5-100 m³/h",
-          "Sin motor",
-          "Poliuretano"
-        ],
-        destacado: false
-      },
-      {
-        id: "chancadora-quijada",
-        nombre: "Chancadora de Quijada",
-        imagenes: [
-          "/assets/images/productos/chancadora-quijada.jpg",
-          "/assets/images/productos/chancadora-quijada-2.jpg",
-          "/assets/images/productos/chancadora-quijada-3.jpg",
-          "/assets/images/productos/chancadora-quijada-4.jpg"
-        ],
-        descripcion: "Trituradora primaria de mandíbulas para reducción de mineral grueso. Robusta y de alta capacidad.",
-        especificaciones: [
-          "Capacidad: 1-20 TPH",
-          "Potencia: 10-40 HP",
-          "Acero al manganeso"
-        ],
-        destacado: false
       }
     ]
   },
@@ -269,19 +235,20 @@ const productosData = {
     subtitulo: "Equipos complementarios para tu planta minera",
     productos: [
       {
-        id: "bomba-agua",
-        nombre: "Bomba de Agua",
+        id: "sistemas-de-transporte",
+        nombre: "Sistemas de Transporte",
         imagenes: [
-          "/assets/images/productos/bomba-agua.jpg",
-          "/assets/images/productos/bomba-agua-2.jpg",
-          "/assets/images/productos/bomba-agua-3.jpg",
-          "/assets/images/productos/bomba-agua-4.jpg"
+          "/assets/images/productos/transport01.jpg",
+          "/assets/images/productos/transport02.jpg",
+          "/assets/images/productos/transport03.jpg",
+          "/assets/images/productos/transport04.jpg"
         ],
-        descripcion: "Bomba centrífuga para suministro de agua en plantas de procesamiento mineral. Alta eficiencia y durabilidad.",
+        descripcion: "Equipos para el transporte y elevación continua de materiales en plantas de procesamiento mineral. Disponibles en versión helicoidal, faja, cadena y cangilones según el tipo de material y proceso requerido.",
         especificaciones: [
           "Caudal: 5-100 m³/h",
-          "Potencia: 2-30 HP",
-          "Hierro fundido"
+          "Capacidad: Variable",
+          "Potencia: 0.75-37 HP",
+          "Material: Acero estructural"
         ],
         destacado: false
       },
