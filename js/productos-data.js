@@ -123,38 +123,38 @@ const productosData = {
     subtitulo: "Equipos para reducción de tamaño y clasificación de minerales",
     productos: [
       {
-        id: "molino-bolas",
-        nombre: "Molino de Bolas",
+        id: "chancadora-de-quijada",
+        nombre: "Chancadora de Quijada",
         imagenes: [
-          "/assets/images/productos/molino-bolas.jpg",
-          "/assets/images/productos/molino-bolas-2.jpg",
-          "/assets/images/productos/molino-bolas-3.jpg",
-          "/assets/images/productos/molino-bolas-4.jpg"
+          "/assets/images/productos/chancadora01.jpg",
+          "/assets/images/productos/chancadora02.jpg",
+          "/assets/images/productos/chancadora03.jpg",
+          "/assets/images/productos/chancadora04.jpg"
         ],
-        descripcion: "Molino para molienda fina de minerales. Ideal para procesos de conminución en plantas concentradoras de pequeña y mediana escala.",
+        descripcion: "Equipo de reducción primaria de tamaño para minerales de alta dureza. Ideal como primera etapa en plantas de procesamiento gravimétrico antes del molino y la concentración.",
         especificaciones: [
-          "Capacidad: 5-50 TPD",
-          "Potencia: 15-100 HP",
-          "Forro de acero"
+          "Capacidad: Variable",
+          "Potencia: Variable",
+          "Dimensiones variables"
         ],
         destacado: true
       },
       {
-        id: "molino-barras",
-        nombre: "Molino de Barras",
+        id: "molino-de-bolas",
+        nombre: "Molino de bolas",
         imagenes: [
-          "/assets/images/productos/molino-barras.jpg",
-          "/assets/images/productos/molino-barras-2.jpg",
-          "/assets/images/productos/molino-barras-3.jpg",
-          "/assets/images/productos/molino-barras-4.jpg"
+          "/assets/images/productos/molinob01.jpg",
+          "/assets/images/productos/molinob02.jpg",
+          "/assets/images/productos/molinob03.jpg",
+          "/assets/images/productos/molinob04.jpg"
         ],
-        descripcion: "Molino para molienda gruesa y media. Ideal para preparación de alimentación a circuitos de concentración gravimétrica.",
+        descripcion: "Molino para reducción de tamaño de partículas mediante molienda húmeda o seca. Ideal para la preparación de pulpas en plantas de concentración gravimétrica y flotación.",
         especificaciones: [
-          "Capacidad: 3-30 TPD",
-          "Potencia: 10-75 HP",
-          "Barras de acero"
+          "Capacidad: Varias",
+          "Potencia: Varias",
+          "Dimensiones variables"
         ],
-        destacado: false
+        destacado: true
       },
       {
         id: "clasificador-espiral",
