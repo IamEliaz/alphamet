@@ -174,19 +174,19 @@ const productosData = {
         destacado: false
       },
       {
-        id: "bomba-pulpa",
-        nombre: "Bomba de Pulpa",
+        id: "equipos-de-filtración-separación",
+        nombre: "Equipos de Filtración y Separación",
         imagenes: [
-          "/assets/images/productos/bomba-pulpa.jpg",
-          "/assets/images/productos/bomba-pulpa-2.jpg",
-          "/assets/images/productos/bomba-pulpa-3.jpg",
-          "/assets/images/productos/bomba-pulpa-4.jpg"
+          "/assets/images/productos/filtysep01.jpg",
+          "/assets/images/productos/filtysep02.jpg",
+          "/assets/images/productos/filtysep03.jpg",
+          "/assets/images/productos/filtysep04.jpg"
         ],
-        descripcion: "Bomba centrífuga para manejo de pulpas minerales abrasivas y corrosivas en plantas concentradoras.",
+        descripcion: "Equipos para la separación, filtración y deshidratación de pulpas y concentrados en procesos de flotación y lixiviación. Permiten la recuperación eficiente de sólidos valiosos y la reducción del contenido de humedad en los concentrados finales.",
         especificaciones: [
-          "Caudal: 10-200 m³/h",
-          "Potencia: 5-50 HP",
-          "Hierro blanco"
+          "Capacidad: Variable según modelo",
+          "Humedad residual: 0.1-30%",
+          "Potencia: 1.5-55 HP"
         ],
         destacado: false
       }
@@ -216,7 +216,7 @@ const productosData = {
           "Potencia: 0.75-37 HP",
           "Material: Acero estructural"
         ],
-        destacado: false
+        destacado: true
       },
       {
         id: "accesorios-varios",
@@ -236,21 +236,19 @@ const productosData = {
         destacado: false
       },
       {
-        id: "tolva-alimentacion",
-        nombre: "Tolva de Alimentación",
+        id: "secadores-industriales",
+        nombre: "Secadores Industriales",
         imagenes: [
-          "/assets/images/productos/tolva-alimentacion.jpg",
-          "/assets/images/productos/tolva-alimentacion-2.jpg",
-          "/assets/images/productos/tolva-alimentacion-3.jpg",
-          "/assets/images/productos/tolva-alimentacion-4.jpg"
+          "/assets/images/productos/secadores01.jpg",
+          "/assets/images/productos/secadores02.jpg"
         ],
-        descripcion: "Tolva de almacenamiento y alimentación con feeder vibratorio para dosificación controlada de mineral.",
+        descripcion: "Equipos para secado de minerales y concentrados mediante tambor rotatorio. Reducen la humedad del material para facilitar su transporte, almacenamiento y procesamiento posterior.",
         especificaciones: [
-          "Capacidad: 5-50 ton",
-          "Acero estructural",
-          "Con feeder"
+          "Capacidad: 0.5-32 Ton/hora",
+          "Temperatura: hasta 700°C",
+          "Potencia: 3-35 HP"
         ],
-        destacado: false
+        destacado: true
       }
     ]
   }
