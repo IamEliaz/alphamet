@@ -664,6 +664,9 @@ span, div, section, header, footer, nav, button, a, li, input, textarea, select,
   overflow: hidden;
   border: 1px solid rgba(255, 255, 255, 0.05);
   transition: all var(--transition-base);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 .product-card:hover {
@@ -681,6 +684,9 @@ span, div, section, header, footer, nav, button, a, li, input, textarea, select,
 
 .product-card__body {
   padding: 25px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
 }
 
 .product-card__title {
@@ -733,6 +739,7 @@ span, div, section, header, footer, nav, button, a, li, input, textarea, select,
   transition: all var(--transition-fast);
   text-transform: uppercase;
   letter-spacing: 1px;
+  margin-top: auto;
 }
 
 .product-card__btn:hover {
