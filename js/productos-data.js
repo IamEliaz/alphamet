@@ -255,7 +255,7 @@ const productosData = {
 };
 
 // ============================================================
-// FUNCIÓN: Obtener productos destacados (para la página de inicio)
+// FUNCIÓN: Obtener productos destacados (para la página de inicio) 
 // ============================================================
 function obtenerProductosDestacados() {
   const destacados = [];

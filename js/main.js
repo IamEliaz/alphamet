@@ -510,4 +510,13 @@ document.addEventListener('DOMContentLoaded', function () {
   `;
   document.head.appendChild(style);
 
+  // ============================================================
+  // META PIXEL - TRACKEO DE CLICS EN BOTONES .button2
+  // ============================================================
+  document.querySelectorAll('.button2').forEach(btn => {
+    btn.addEventListener('click', function() {
+      fbq('track', 'Contact');
+    });
+  });
+
 }); // Fin DOMContentLoaded
