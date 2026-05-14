@@ -737,7 +737,9 @@ span, div, section, header, footer, nav, button, a, li, input, textarea, select,
   border: 1px solid #e8e8e8;
   box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
   cursor: pointer;
-  width: 100%;
+}
+.product-card__body > a {
+  display: flex;
   justify-content: center;
   margin-top: auto;
 }
