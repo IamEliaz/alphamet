@@ -249,7 +249,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
       const body = `Nombre: ${nombre.value}%0AEmail: ${email.value}%0ATeléfono: ${telefono}%0AEmpresa: ${empresa}%0AAsunto: ${asunto}%0A%0AMensaje:%0A${mensaje.value}`;
 
-      const mailtoLink = `mailto:elias@udhconecta.com?subject=${encodeURIComponent('Contacto - ALPHAMET: ' + asunto)}&body=${body}`;
+      const mailtoLink = `mailto:contacto@somosceg.com?subject=${encodeURIComponent('Contacto - ALPHAMET: ' + asunto)}&body=${body}`;
 
       // Abrir cliente de correo
       window.location.href = mailtoLink;
